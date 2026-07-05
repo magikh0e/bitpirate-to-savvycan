@@ -1,7 +1,7 @@
 # bitpirate-to-savvycan
 
 Two small **Python 3, standard-library-only** tools for getting a CAN capture off an
-ESP32 **Bit-Pirate** sniffer and into [SavvyCAN](https://github.com/collin80/SavvyCAN):
+ESP32 [**Bit-Pirate**](https://github.com/geo-tp/ESP32-Bit-Pirate) sniffer and into [SavvyCAN](https://github.com/collin80/SavvyCAN):
 
 - **`bitpirate_to_savvycan.py`** — convert a Bit-Pirate sniff log into a SavvyCAN-native (GVRET) CSV, with optional DBC decoding.
 - **`bp_fetch.py`** — pull a capture straight off the device's LittleFS over Wi-Fi, and (optionally) hand it to the converter in one step.
